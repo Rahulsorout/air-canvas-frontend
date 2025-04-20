@@ -1,0 +1,42 @@
+/* index.css or App.css */
+
+/* Reset and Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set root behavior */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #f4f6f8;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Image safety */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons default reset */
+button {
+  font-family: inherit;
+}
+
+/* Smooth scroll for modern UX */
+html {
+  scroll-behavior: smooth;
+}
