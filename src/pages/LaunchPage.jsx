@@ -16,7 +16,7 @@ const LaunchPage = () => {
   const handleStart = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/start');
+      const response = await axios.post('https://air-canvas-backend.onrender.com/start');
       console.log('Backend Response:', response);  // Log the full response
       if (response.status === 200 && response.data === 'Air Canvas Started!') {
         setSnackbar({ open: true, message: 'AIR CANVAS launched successfully!', severity: 'success' });
